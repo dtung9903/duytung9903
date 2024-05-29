@@ -176,14 +176,13 @@ color:#333333;
 .fixed-action-btn {
   position: fixed;
   bottom: 160px;
-  right: 10px;
+  right: -5px;
   width: 200px;
   z-index: 99;
 }
 
 .contact-box-wrapper{
   display: flex;
-  margin: 10px 0;
   align-items: center;
   justify-content: flex-start;
   text-decoration: none;
@@ -199,8 +198,7 @@ color:#333333;
 .contact-icon-box {
   width: 60px;
   height: 60px;
-  margin-right: 10px;
-  display: contents;
+  margin-right: 0px;
 }
 
 .contact-icon-box img {
@@ -220,4 +218,11 @@ color:#333333;
   font-weight: 600;
   color: #555;
 }
+
+@media only screen and (max-width:1399px) {
+  .fixed-action-btn{
+    display: none;
+  }
+}
+
 
